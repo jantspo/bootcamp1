@@ -51,10 +51,16 @@ table {
 
 /* My CSS*/
 
+header#header
+{
+	background: black;
+	color: white;
+}
+
 body
 {
 	font-family: Arial, "MS Trebuchet", sans-serif;
-	background-image:url("../images/fabric.jpg");
+	background-color: white;
 	background-size: 100%;
 }
 
@@ -62,7 +68,7 @@ h1
 {
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	font-size: 50px;
-	color: black;
+	color: white;
 	font-weight: 300px;
 	text-align: center;
 	padding: 50px;
