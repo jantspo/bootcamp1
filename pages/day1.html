@@ -2,12 +2,17 @@
 <html>
 <head>
 	<title>Day One Page</title>
-	<link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/MyStylesheet.css">
 </head>
+
+<header>
+	<a id="header"></a>
+</header>
+
 <body>
-	<div id="header_wrap" class="outer">
+	<div id="header_wrap">
 		<header class="inner">
-		<h1 id="project_title">This is the Day 1 page.</h1>
+		<h1 id="project_title">This is the Day 1 Page.</h1>
 		</header>
 	</div>
 	<div id="main_content_wrap" class="outer">
@@ -19,8 +24,10 @@
 
 	<h3>This is the third size header</h3>
 
-	<img src="../images/Chicken.jpg" alt="The mighty and fearless chicken of doom">
-
+	<section id="img">
+		<img src="../images/Chicken.jpg" alt="The mighty and fearless chicken of doom">
+	</section>
+	
 	<ul>This is an unordered list.
 		<li>This is just an item in the list.</li>
 		<li>As is this.</li>
@@ -33,17 +40,29 @@
 		</ul>
 
 	<h4>This is the fourth.</h4>
+	<aside>
+		<ol>This is an ordered list for an &lt;aside&gt;
+			<li>This is the first item.</li>
+			<li>The second.</li>
+			<li>The third and final.</li>
+		</ol>
+	</aside>
 
-	<ol>This is an ordered list.
-		<li>This is the first item.</li>
-		<li>The second.</li>
-		<li>The third and final.</li>
-	</ol>
+	<aside id="noside">
+		<p>This is another aside.</p>
+	</aside>
 
 	<h5>This is the second to smallest header.</h5>
 
 	<h6>And finally the last header size, and also the smallest.</h6>
-	<a href="../index.html">Back</a>
+	<a id="back" href="../index.html">Back</a>
+	
+	<section id="sidebar">
+		<ul>
+			<li><a href="#header">Go to header.</a></li>
+		</ul>	
+
+	</section>
 </div>
 
 </html>
