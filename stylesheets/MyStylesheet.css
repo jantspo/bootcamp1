@@ -59,6 +59,7 @@ header#header
 
 body
 {
+	display:block;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	background-color: white;
 	background-size: 100%;
@@ -102,17 +103,24 @@ h2, h3, h4, h5, h6
 {
 	font-size: 35px;
 	font-weight: 200px;
-	text-align: center;
 	padding: 15px 15px 15px 20px;
 }
 
 p
 {
+	display: block;
+	text-align: justify;
 	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
+	font-weight: bold;	
 	word-spacing: 5px;
 	line-height: 25px;
+}
+table
+{
+	margin: 0 50%;
+	background-color: black;
+	font-size: 20px;
+	color: white;
 }
 
 a#back:
@@ -136,6 +144,7 @@ ol
 
 ul
 {
+	text-align: center;
 	list-style: square;
 	color:blue;
 	font-size: 20px;
@@ -185,5 +194,23 @@ p:first-letter
 
 p:first-child
 {
-	color:blue;
+	color:blue0;
+}
+
+tr:nth-of-type(even)
+{
+	background-color: blue;
+}
+
+thead
+{
+	background-color: white;
+	color:black;
+}
+
+.text
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
