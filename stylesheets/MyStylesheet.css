@@ -106,7 +106,7 @@ h2, h3, h4, h5, h6
 	padding: 15px 15px 15px 20px;
 }
 
-p, ol, ul
+p
 {
 	font-size: 20px;
 	font-weight: bold;
@@ -115,7 +115,7 @@ p, ol, ul
 	line-height: 25px;
 }
 
-a#back
+a#back:
 {
 	float: left;
 }
@@ -123,4 +123,67 @@ a#back
 section#sidebar
 {
 	float:left;
+}
+
+ol
+{
+	list-style: disc;
+	list-style: circle;
+	color:red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+ul
+{
+	list-style: square;
+	color:blue;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+li
+{
+	list-style: square;
+}
+
+.center
+{
+	margin:0 50%;
+}
+
+a:hover
+{
+	color:yellow; 
+	background-color: blue;
+}
+
+a:link
+{
+	color: red;
+}
+
+a:active
+{
+	color: purple;
+}
+
+a:visited
+{
+	color:green;
+}
+
+p:hover
+{
+	color: red;
+}
+
+p:first-letter
+{
+	color: red;
+}
+
+p:first-child
+{
+	color:blue;
 }
