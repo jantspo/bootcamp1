@@ -99,11 +99,20 @@ aside#options
 	float:center;
 }
 
-h2, h3, h4, h5, h6
+h2, h3, h5, h6
 {
 	font-size: 35px;
 	font-weight: 200px;
 	padding: 15px 15px 15px 20px;
+	text-align: center;
+
+}
+
+h4
+{
+	font-size: 30px;
+	font-weight: 175px;
+	padding: 20px 20px 20px 25px;
 }
 
 p
@@ -156,6 +165,11 @@ li
 	list-style: square;
 }
 
+a
+{
+	font-size: 20px;
+}
+
 .center
 {
 	margin:0 50%;
@@ -163,13 +177,13 @@ li
 
 a:hover
 {
-	color:yellow; 
-	background-color: blue;
+	color:lightblue; 
+	background-color: black;
 }
 
 a:link
 {
-	color: red;
+	color: blue;
 }
 
 a:active
@@ -179,7 +193,7 @@ a:active
 
 a:visited
 {
-	color:green;
+	color:purple;
 }
 
 p:hover
@@ -212,5 +226,17 @@ thead
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 60%;
+}
+
+.bookQuote
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%
+}
+
+.mobyimg
+{
+	text-align: center;
 }
