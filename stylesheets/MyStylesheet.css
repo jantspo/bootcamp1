@@ -53,8 +53,16 @@ table {
 
 header#header
 {
+	position: relative;
 	background: black;
 	color: white;
+}
+
+.wrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
 }
 
 body
@@ -119,10 +127,11 @@ p
 {
 	display: block;
 	text-align: justify;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;	
 	word-spacing: 5px;
 	line-height: 25px;
+	margin-bottom: 10px;
 }
 table
 {
@@ -149,6 +158,7 @@ ol
 	color:red;
 	font-size: 20px;
 	font-weight: bold;
+	margin: 5px;
 }
 
 ul
@@ -163,11 +173,14 @@ ul
 li
 {
 	list-style: square;
+	margin-top: 10px;
 }
 
 a
 {
 	font-size: 20px;
+	margin: 10px;
+	color:red;
 }
 
 .center
@@ -175,40 +188,25 @@ a
 	margin:0 50%;
 }
 
-a:hover
-{
-	color:lightblue; 
-	background-color: black;
-}
-
 a:link
 {
-	color: blue;
+	color: red;
 }
 
 a:active
 {
-	color: purple;
-}
-
-a:visited
-{
-	color:purple;
-}
-
-p:hover
-{
 	color: red;
 }
 
-p:first-letter
+
+a:hover
 {
-	color: red;
+	color: white; 
 }
 
 p:first-child
 {
-	color:blue0;
+	color:blue;
 }
 
 tr:nth-of-type(even)
@@ -239,4 +237,30 @@ thead
 .mobyimg
 {
 	text-align: center;
+}
+
+#top, #bottom, #left, #right {
+	background: black;
+	position: fixed;
+	}
+#left, #right 
+{
+	top: 0; bottom: 0;
+	width: 12.5%;
+}
+
+#left { left: 0; }
+#right { right: 0; }
+		
+a#backlink
+{
+	margin-left: 15%;
+}
+
+a#linkbar
+{
+	font-size: 25px;
+	font-weight: 100;
+	text-decoration: none;
+	position: relative;
 }
