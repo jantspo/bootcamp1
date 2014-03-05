@@ -182,6 +182,12 @@ a
 	color:black;
 }
 
+span
+{
+	font-size: 35px;
+	color: red;
+}
+
 .center
 {
 	margin:0 50%;
@@ -212,6 +218,7 @@ a:hover
 	background-color: #E0F2F7;
 	text-align: center;
 	margin: auto;
+	margin-top: 5px;
 	color: #424242;
 }
 
@@ -281,4 +288,6 @@ a#backlink
 	background-color: #A4A4A4;
 	text-align: center;
 	margin: auto;
+	margin-top: 5px;
 }
+
