@@ -10,6 +10,12 @@ h1
 	font-weight: 1000;
 	text-align: center;
 	text-decoration: underline;
+	border:solid red 2px;
+	border-radius: 10px;
+	background-color: white;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
 
 }
 
@@ -33,10 +39,11 @@ a{
 
 p
 {
-	background-color: #F5F5F0;
+	background-color: #e0e0e0;
 	border: 2px solid red;
 	border-radius: 5px;
 	padding: .75%;
+	box-shadow: 5px 5px 5px black;
 }
 
 thead{
@@ -70,7 +77,6 @@ td
 	height:12.5%;
 	position: relative;
 	width: 100%;
-	background-color: white;
 }
 
 #navbar
@@ -161,3 +167,25 @@ table#first th{
 	background-color: #66CCFF;
 	border-radius: 5px;
 }
+
+.bestcolumn:nth-of-type(even)
+{
+	background-color: red;
+	font-weight: bold;
+}
+
+.bestcolumn:nth-of-type(odd){
+	background-color: purple;
+	color: white;
+	font-weight: bold;
+}
+
+.bestcolumn:nth-of-type(5){
+	background-color: blue;
+	font-weight: bold;
+}
+ td.bestcolumn:last-of-type{
+ 	background-color: yellow;
+ 	color: red;
+ 	font-weight: bold;
+ }

@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>John Sposato</title>
+<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Temporary H1 tag</h1>
+  </header>
+  <nav>
+    <!--<a id="home" href="#">John Sposato</a>-->
+    <div id="home"><a href="#">JS</a></div>
+    <ul id="navLinks">
+      <li><a class="navLinks" href="">About</a></li>
+      <li><a class="navLinks" href="">Stuff1</a></li>
+      <li><a class="navLinks" href="">Stuff2</a></li>
+      <li><a class="navLinks" href="">Stuff3</a></li>
+    </ul>
+   <!-- <ul id="socialLinks">
+      <li><a class="socialLinks" title="Facebook" href="#">Facebook</a></li>
+      <li><a class="socialLinks" title="Twitter" href="#">Twitter</a></li>
+      <li><a class="socialLinks" title="LinkedIn" href="#">LinkedIn</a></li>
+    </ul>-->
+  </nav>
+  <main>
+    <h2>Simple H2 Title</h2>
+    <article>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ultricies neque, quis cursus enim. Praesent convallis justo velit, nec vulputate urna aliquet at. Phasellus cursus justo ac sem interdum, nec varius nisi egestas. Nulla ornare purus augue, vel accumsan felis aliquet sit amet. Nunc elementum in risus at posuere. Etiam eget ullamcorper mauris, ut interdum quam. Nulla venenatis nisl ut dui gravida ullamcorper. Cras vel metus a mi molestie suscipit. Proin massa neque, fermentum ut est at, pulvinar egestas mauris. Nullam elementum ipsum id purus auctor eleifend. Fusce vitae leo elementum, accumsan eros id, ullamcorper augue. Morbi quis nunc sit amet augue molestie aliquam suscipit vel lectus. Nullam tortor arcu, sagittis ac metus euismod, vehicula egestas sapien.
+      </p>
+    <div class="basicInfo">
+      <p>
+      Duis bibendum venenatis ligula vitae feugiat. Nullam felis erat, cursus vestibulum lacus ac, commodo imperdiet nunc. Donec a ante interdum, mattis orci vestibulum, venenatis dolor. Nullam id nunc libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.In ornare, diam ut laoreet volutpat, eros tortor ultrices est, quis suscipit urna leo eget turpis.</p>
+    </div>  
+    <div class="basicInfo">
+      <p>
+      Nunc tincidunt varius tellus. Nunc in commodo enim. Sed in elementum libero. Donec nec dolor sed sem vestibulum luctus. Mauris pretium, augue ac venenatis mattis, ante magna convallis justo, non tempor arcu orci at sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+    </p>
+    </div>
+    <div class="basicInfo">
+      <p>
+      Nunc tincidunt varius tellus. Nunc in commodo enim. Sed in elementum libero. Donec nec dolor sed sem vestibulum luctus. Mauris pretium, augue ac venenatis mattis, ante magna convallis justo, non tempor arcu orci at sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+    </p>
+    </div>
+    </article>
+  </main>
+
+ <footer>
+    <ul>
+      <li><a title="Facebook" href="#">Facebook</a></li>
+      <li><a title="Twitter" href="#">Twitter</a></li>
+      <li><a title="LinkedIn" href="#">LinkedIn</a></li>
+    </ul>
+  </footer>
+  <div id="clear"></div>
+</body>
+</html>

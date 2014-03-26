@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background:  ;
+}
+
+header{
+	height:100px;
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header h1{
+	font: 35px Helvetica;
+	display: block;
+	margin: auto 0; 
+	position: relative;
+}
+
+nav{
+	/*background:#A2A9AF;*/
+	background: white;
+	width: 200px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	border-right: 1px solid grey;
+	box-shadow: 5px 5px 5px;
+}
+
+nav ul#navLinks{
+	list-style: none;
+}
+
+nav ul#navLinks li{
+	/*border: 1px solid grey;*/
+	/*padding: 5px;*/
+	margin: 5px 0;
+}
+
+main{
+	position: relative;
+}
+
+main p{
+	background: white;
+	padding: 10px;
+	box-shadow: 5px 5px 5px;
+}
+
+footer ul li{
+	float: left;
+}
+
+/*nav ul#navLinks li:hover{
+	background: #c4ccd3;
+}*/
+
+
+
+nav ul#navLinks li a.navLinks{
+	font:25px Helvetica;
+	color:grey;
+	text-decoration: none;
+	width: 200px;
+	border: 1px solid grey;
+	padding: 2.5px 133px 2.5px 0;
+	
+}
+
+nav ul#navLinks li a.navLinks:hover{
+	color:white;
+	text-decoration: underline;
+	background: black;
+	box-shadow: 5px 5px 5px black;
+}
+
+a#home{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	text-indent: -9999px;
+}
+
+div#home{
+	display: inline-block;
+	height: 175px;
+	width: 200px;
+	text-align: center;
+	font: 150px Helvetica;
+}
+
+div#home a{
+	text-decoration: none;
+	color: red;
+}
+
+main{
+	width: 700px;
+	margin:0 auto;
+	height:550px;
+}
+
+main h2{
+	margin: 2px auto;
+}
+
+main p{
+	font: 18px Helvetica;
+}
+
+div#columns{
+	-webkit-column-count:3; /*Safari and Chrome*/
+	-moz-column-count:3; /* Firefox */
+	column-count:3; /*Everyone else */
+	-webkit-column-gap:30px;
+	-moz-column-gap:30px;
+	column-gap:30px;
+	-webkit-column-rule: 1px outset black;
+	-moz-column-rule: 1px outset black;
+	column-rule: 1px outset black;
+	margin:25px auto;
+	height:300px;
+	position: relative;
+}
+
+/*footer{
+	position: relative;
+	height:50px;
+	width: 1500px;
+	margin: auto 0 0 200px;
+	background: #A2A9AF;
+}*/
+
+
+
+
+
+
+#clear{
+	clear:both;
+}
+
+.basicInfo{
+	float:left;
+	height:250px;
+	width: 175px;
+	display: block;
+	margin:25px 25px 0 0;
+	padding:0 20px 0 10px;
+	border-right: 1px solid grey;
+}

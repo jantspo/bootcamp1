@@ -1,0 +1,202 @@
+/*CSS RESET*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Begin CSS */
+
+body{
+background: -webkit-linear-gradient(#77C5D0, white, white, #77C5D0); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#77C5D0, white, white, #77C5D0); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#77C5D0, white, white, #77C5D0); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#77C5D0, white, white, #77C5D0); /* Standard syntax */
+}
+/*body
+{
+ background:#77C5D0;
+}*/
+
+div#container{
+	margin:75px 0;
+	background: #f1f1f1;
+	height:600px;
+	/*height: 75%;*/
+}
+/*header css*/
+header{
+	height:8%;
+	width: 100%;
+	position: relative;
+	padding: 0 0 5px 0;
+}
+
+header div {
+	width:375px;
+	height: 100%;
+	padding-bottom: 5px;
+	text-decoration: none;
+	position: relative;
+}
+
+header div a{
+	text-decoration: none;
+	color: white;
+	text-shadow:5px 5px 5px black;
+}
+
+header div a h1{
+	font:bold 45px helvetica;
+}
+
+/*nav css*/
+nav{
+	margin:15px 0 0 0;
+	width:200px;
+	float:left;
+	height: 400px;
+}
+
+nav ul li{	
+	margin:0 0 35px;
+	height: 25px;
+	width: 99%;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font:22px helvetica;
+	text-shadow:1px 1px 1px black;
+	width: 200px;
+	height: 25px;
+	display: block;
+	padding: 10px 0;
+	border:2px solid black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px grey;
+	margin:10px;
+}
+
+nav ul li a:hover{
+	color:white;
+	opacity: .75;
+	border:1px solid grey;
+	box-shadow: 5px 5px 5px black;
+	background: black;
+}
+
+/*main content css*/
+main{
+	width:960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+main p#welcome_blurb{
+	font:bold 25px helvetica, arial, sans-serif;
+	color:white;	
+	text-shadow:1px 1px 1px black;
+	margin: 0 auto;
+	width: 960px;
+	padding: 15px;
+}
+
+main aside{
+	float:left;
+	height: 250px;
+	width: 300px;
+	background: #f1f1f1;
+	margin: 100px 5px 5px 5px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px;
+	border: 1px solid grey;
+}
+
+main aside h3{
+	font:22px helvetica;
+	font-style: bold;
+	color: white;
+	background: #77C5D0;
+	border-bottom: 1px solid grey;
+	padding-left: 5px;
+}
+
+main aside p{
+	font:18px helvetica;
+	font-style: bold;
+	padding-left: 5px;
+}
+
+main aside p a{
+	text-decoration: none;
+	color: white;
+	text-shadow:2px 2px 2px black;
+}
+
+main aside p a:hover{
+	text-decoration: none;
+	color: white;
+	text-shadow:2px 2px 2px black;
+	background: black;
+}
+
+/*footer css*/
+footer{
+	height: 10%;
+	width: 200px;
+}
+
+footer ul li{
+	margin-top: 20px;
+	float:left;
+}
+
+.clear{
+	clear:both;
+}
+
