@@ -1,52 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
+/*My CSS*/
+body{
+	background:black;
+}
 #container{
 	height:780px;
 	width: 1200px;
@@ -61,20 +18,31 @@ header{
 	width:25%;
 	min-height: 780px;
 	max-width: 300px;
-	background: yellow;
+	background: white;
 	float: left;
 }
 
 header h1{
-	font-size:100px;
+	margin-top: 0;
+	font-size:150px;
 	text-align: center;
 }
 
 header h1 a{
+	font-family:'Amaranth', sans-serif;
 	text-decoration: none;
 	color:black;
 	text-align: center;
 }
+
+nav a#pull {  
+    display: none;
+    height: 10%;
+    width: 100%;
+    background: #f1f1f1;
+    color:yellow;  
+}   
+
 header nav ul{
 }
 
@@ -85,10 +53,10 @@ header nav ul li{
 
 header nav ul li a{
 	font-family: 'Jura', sans-serif;
-	color:white;
+	color: #1f1f1f;
 	text-decoration: none;
-	font-size: 25px;
-	text-shadow:2px 2px 2px black;
+	font-size: 35px;
+	/*text-shadow:3px 3px 3px black;*/
 	padding: 2px 5px 2px 5px;
 }
 
@@ -102,31 +70,49 @@ main{
 	width:75%;
 	min-height: 780px;
 	max-width: 900px;
-	background: grey;
+	background: #c1c1c1;
 	float:right;
+}
+
+main article#indexPage{
+	height: auto;
+	width:60%;
+	margin: 25% auto 5%;
 }
 
 main article{
 	height: auto;
 	width:60%;
-	margin: 30% auto 5%;
+	margin: 25% auto 5%;
 }
 
 main article p{
 	font-family: 'Jura', sans-serif;
 	font-size: 25px;
 	color: white;
-	text-shadow: 2px 2px 2px #1f1f1f;
+	text-shadow: 2px 2px 2px black;
+}
+
+main article p a{
+	color: #dd2222;
+	text-shadow:none;
 }
 
 main aside{
 	height:250px;
 	width: 200px;
-	border:2px solid yellow;
+	border:2px solid grey;
 	float: left;
 	background: #f1f1f1;
 	box-shadow: 5px 5px 5px black;
 	border-radius: 5px;
+}
+
+h2{
+	font-family: 'Jura', sans-serif;
+	font-size: 32px;
+	color: yellow;
+	text-shadow: 2px 2px 2px black;
 }
 
 #news{
@@ -142,11 +128,12 @@ main aside{
 }
 
 main aside h3{
-	border-bottom: 1px solid yellow;
+	color:yellow;
+	border-bottom: 1px solid grey;
 	font-family:  'Jura', sans-serif;
 	font-size: 28px;
 	text-align: center;
-	text-shadow: 2px 2px 2px grey;
+	text-shadow: 2px 2px 2px black;
 }
 
 main aside p{
@@ -155,24 +142,69 @@ main aside p{
 	padding: 0 0 0 2%;
 }
 
+main aside p a{
+	color:#dd2222
+}
 .clear{
 	clear:both;
 }
 
 /*Responsiveness*/
 
-@media only screen and (max-width:480px) {
- nav .hideme { display: none; }
-}
-
-
-@media only screen and (max-width:480px){
-	 #container, header, main, article, aside{
-		width: 100%;
-		height: auto;
+@media only screen and (max-width:720px){
+	 #container, header, main, article {
+		width: auto;
+		max-height: 200px;
+		max-width: 720px;
 		float:none;
 		margin: 0 auto;
 	}
+
+	aside{
+		margin: 10px auto;
+		float:none;
+		width: auto;
+		max-width: 720px;
+	}
+
+	h1{
+		font-size: 24px;
+	}
+
+	h3{
+		font-size: 20px;
+	}
+
+	p{
+		font-size: 15px;
+	}
+	  
+    nav {  
+        border-bottom: 0;  
+    }  
+
+    nav.hideme { display: none; }
+
+    nav ul {  
+        display: none;  
+        height: auto;  
+    }  
+    nav a#pull {  
+        display: block;  
+        background-color: #f1f1f1;  
+        width: 100%;  
+        position: relative;  
+    }  
+    nav a#pull:after {  
+        content:"";  
+        background: url('nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        rightright: 15px;  
+        top: 10px;  
+    }
 }
 
 @media only screen and (max-width:768px) {
