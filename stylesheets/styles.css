@@ -1,4 +1,3 @@
-/*CSS RESET*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,177 +47,138 @@ table {
 	border-spacing: 0;
 }
 
-/* Begin Site CSS */
-
-body{
-background: -webkit-linear-gradient(#77C5D0, white, white, #77C5D0); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(#77C5D0, white, white, #77C5D0); /* For Opera 11.1 to 12.0 */
-background: -moz-linear-gradient(#77C5D0, white, white, #77C5D0); /* For Firefox 3.6 to 15 */
-background: linear-gradient(#77C5D0, white, white, #77C5D0); /* Standard syntax */
-}
-/*body
-{
- background:#77C5D0;
-}*/
-
-div#container{
-	margin:75px 0;
-	background: #f1f1f1;
-	height:600px;
-	/*height: 75%;*/
-}
-/*Header css*/
-header{
-	height:8%;
-	width: 100%;
-	position: relative;
-	padding: 0 0 5px 0;
-}
-
-header div {
-	width:375px;
-	height: 100%;
-	padding-bottom: 5px;
-	text-decoration: none;
-	position: relative;
-}
-
-header div a{
-	text-decoration: none;
-	color:grey;
-	/*text-shadow:5px 5px 5px black;*/
-}
-
-header div a:hover{
-	text-decoration: none;
-	color:grey;
-	text-shadow:5px 5px 5px black;
-}
-
-
-header div a h1{
-	font-family: 'Amaranth', sans-serif;
-	font-size:45px;
-}
-
-/*Nav css*/
-nav{
-	margin:15px 0 0 0;
-	width:220px;
-	float:left;
-	height: 400px;
-}
-
-nav ul li{	
-	margin:0 0 35px;
-	height: 25px;
-	width: 99%;
-}
-
-nav ul li a{
-	color: white;
-	text-decoration: none;
-	background: grey
-;	font:22px 'Jura', sans-serif;
-	text-shadow:1px 1px 1px black;
-	width: 200px;
-	height: 25px;
-	display: block;
-	padding: 10px 0;
-	border:2px solid black;
-	border-radius: 5px;
-	box-shadow: 1px 1px 1px black;
-	margin:10px;
-}
-
-nav ul li a:hover{
-	color:white;
-	/*opacity: .75;*/
-	border:1px solid grey;
-	box-shadow: 5px 5px 5px black;
+#container{
+	height:780px;
+	width: 1200px;
 	background: black;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
 }
 
-/*main content css*/
+header{
+	height: 100%;
+	width:25%;
+	min-height: 780px;
+	max-width: 300px;
+	background: yellow;
+	float: left;
+}
+
+header h1{
+	font-size:100px;
+	text-align: center;
+}
+
+header h1 a{
+	text-decoration: none;
+	color:black;
+	text-align: center;
+}
+header nav ul{
+}
+
+header nav ul li{
+	list-style: none;
+	padding: 15px 15px;
+}
+
+header nav ul li a{
+	font-family: 'Jura', sans-serif;
+	color:white;
+	text-decoration: none;
+	font-size: 25px;
+	text-shadow:2px 2px 2px black;
+	padding: 2px 5px 2px 5px;
+}
+
+li a:hover{
+	background: grey;
+	padding:2px 5px 2px 5px;
+	box-shadow: 5px 5px 5px black;
+}
 main{
-	width:960px;
-	min-width: 960px;
-	margin: 0 auto;
-	position: relative;
+	height: 100%;
+	width:75%;
+	min-height: 780px;
+	max-width: 900px;
+	background: grey;
+	float:right;
 }
 
-main p#welcome_blurb{
-	font:bold 25px 'Jura', sans-serif;
-	color:#5c5c5c;	
-	text-shadow:.5px .5px .5px black;
-	margin: 0 auto;
-	width: 960px;
-	padding: 15px;
+main article{
+	height: auto;
+	width:60%;
+	margin: 30% auto 5%;
+}
+
+main article p{
+	font-family: 'Jura', sans-serif;
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 2px 2px #1f1f1f;
 }
 
 main aside{
-	float:left;
-	height: 250px;
-	width: 300px;
+	height:250px;
+	width: 200px;
+	border:2px solid yellow;
+	float: left;
 	background: #f1f1f1;
-	margin: 100px 5px 5px 5px;
+	box-shadow: 5px 5px 5px black;
 	border-radius: 5px;
-	box-shadow: 5px 5px 5px;
-	position: relative;
-	border: 1px solid black;
+}
+
+#news{
+	margin:0 2.5% 0 11%;
+}
+
+#aboutMe{
+	margin: 0 2.5% 0;
+}
+
+#goals{
+	margin: 0 5% 0 2.5%;
 }
 
 main aside h3{
-	font:22px 'Jura', sans-serif;
-	font-style: bold;
-	color: white;
-	text-shadow:1px 1px 1px black;
-	background: grey;
-	border:1px solid black;
-	padding-left: 5px;
+	border-bottom: 1px solid yellow;
+	font-family:  'Jura', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	text-shadow: 2px 2px 2px grey;
 }
 
 main aside p{
-	font:18px 'Jura', sans-serif;
-	font-style: bold;
-	padding-left: 5px;
+	font-family:  'Jura', sans-serif;
+	font-size:18px;
+	padding: 0 0 0 2%;
 }
-
-main aside p a{
-	text-decoration: none;
-	color: white;
-	text-shadow:2px 2px 2px black;
-}
-
-main aside p a:hover{
-	text-decoration: none;
-	color: white;
-	text-shadow:2px 2px 2px black;
-	background: black;
-}
-
-/*footer css*/
-footer{
-	height: 10%;
-	width: 200px;
-}
-
-footer ul li{
-	margin:20px 0 0 10px;
-	float:left;
-}
-
-footer ul li a{
-	display: inline-block;
-	height: 48px;
-	width: 48px;
-	text-indent: -9999px;
-	background: black;
-}
-
-footer a{}
 
 .clear{
 	clear:both;
 }
 
+/*Responsiveness*/
+
+@media only screen and (max-width:480px) {
+ nav .hideme { display: none; }
+}
+
+
+@media only screen and (max-width:480px){
+	 #container, header, main, article, aside{
+		width: 100%;
+		height: auto;
+		float:none;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width:768px) {
+
+}
+
+@media only screen and (min-width:768px){
+
+}
