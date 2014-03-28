@@ -189,6 +189,7 @@ footer div p{
 		margin: 0;
 		padding:0;
 	}
+
 	 #container{
 	 	width: auto;
 	 	max-width: 480px;
@@ -212,6 +213,7 @@ footer div p{
 		float:none;
 		margin: 0 auto;
 		border-radius: 5px;
+		padding: 0;
 	}
 
 	main{
@@ -221,6 +223,8 @@ footer div p{
 		max-width: 480px;
 		border-radius: 5px;
 		background:#c1c1c1;
+		margin: -350px auto 0;
+		padding: 0;
 	}
 
 	main p#indexPage{
