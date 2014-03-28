@@ -71,7 +71,7 @@ nav ul li a:hover{
 main{
 	height: 90%;
 	width:75%;
-	min-height: 780px;
+	min-height: 778px;
 	max-width: 900px;
 	background: #c1c1c1;
 	float:right;
@@ -89,11 +89,16 @@ main article{
 	margin: 25% auto 5%;
 }
 
+
 main article p{
 	font-family: 'Jura', sans-serif;
 	font-size: 25px;
 	color: white;
 	text-shadow: 2px 2px 2px black;
+}
+
+main article p span{
+	color:yellow;
 }
 
 main article p a#geekwiseLink{
@@ -152,8 +157,8 @@ main aside p a{
 footer{
 	width:25%;
 	height: 10%;
+	max-height: 40px
 	max-width: 1200px;
-	max-height: 300px;
 	float:left;
 	background: white;
 }
@@ -191,7 +196,16 @@ footer div p{
 	 	height:auto;
 	 } 
 
-	 header, article, footer {
+	 header {
+	 	width:auto;
+	 	max-height: 200px;
+	 	max-width: 480px;
+	 	float:none;
+	 	margin: 0 auto;
+	 	border:5px;
+	 }
+
+	 article, footer {
 		width: auto;
 		max-height: 200px;
 		max-width: 480px;
@@ -241,9 +255,14 @@ footer div p{
         border-bottom: 0;  
     }  
 
-    nav.hideme { display: none; }
+    nav.hideme ul li {
+    	text-align: center;
 
-    nav ul {  
+    } 
+
+   /* nav.hideme { display: none; }*/
+
+   /* nav ul {  
         display: none;  
         height: auto;  
     }  
@@ -262,7 +281,7 @@ footer div p{
         position: absolute;  
         rightright: 15px;  
         top: 10px;  
-    }
+    }*/
 }
 
 @media only screen and (max-width:768px) {
