@@ -111,7 +111,7 @@ main aside{
 	border-radius: 5px;
 }
 
-main aside h2{
+main article h2{
 	font-family: 'Jura', sans-serif;
 	font-size: 32px;
 	color: yellow;
@@ -210,14 +210,16 @@ footer div p{
 	}
 
 	main p#indexPage{
-		width: 450;
-		padding: 0 auto 25px;
-		margin:0 auto;
+		width: 450px;
+		min-width: 450px;
+		padding: 25px auto 25px;
+		margin:15px auto;
 	}
 
 	aside#news, aside#aboutMe, aside#goals{
 		width:auto;
 		max-width: 300px;
+		height:auto;
 		float:none;
 		box-shadow: none;
 		margin:10px auto;
