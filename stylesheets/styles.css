@@ -4,6 +4,7 @@
 body{
 	background:black;
 }
+
 #container{
 	height:780px;
 	width: 1200px;
@@ -14,9 +15,9 @@ body{
 }
 
 header{
-	height: 100%;
+	height: 90%;
 	width:25%;
-	min-height: 780px;
+	min-height: 700px;
 	max-width: 300px;
 	background: white;
 	float: left;
@@ -35,7 +36,7 @@ header h1 a{
 	text-align: center;
 }
 
-nav a#pull {  
+header nav a#pull {  
     display: none;
     height: 10%;
     width: 100%;
@@ -60,13 +61,14 @@ header nav ul li a{
 	padding: 2px 5px 2px 5px;
 }
 
-li a:hover{
-	background: grey;
+nav ul li a:hover{
+	background: #c1c1c1;
 	padding:2px 5px 2px 5px;
 	box-shadow: 5px 5px 5px black;
 }
+
 main{
-	height: 100%;
+	height: 90%;
 	width:75%;
 	min-height: 780px;
 	max-width: 900px;
@@ -93,7 +95,7 @@ main article p{
 	text-shadow: 2px 2px 2px black;
 }
 
-main article p a{
+main article p a#geekwiseLink{
 	color: #dd2222;
 	text-shadow:none;
 }
@@ -103,27 +105,27 @@ main aside{
 	width: 200px;
 	border:2px solid grey;
 	float: left;
-	background: #f1f1f1;
+	background: white;
 	box-shadow: 5px 5px 5px black;
 	border-radius: 5px;
 }
 
-h2{
+main aside h2{
 	font-family: 'Jura', sans-serif;
 	font-size: 32px;
 	color: yellow;
 	text-shadow: 2px 2px 2px black;
 }
 
-#news{
+aside#news{
 	margin:0 2.5% 0 11%;
 }
 
-#aboutMe{
+aside#aboutMe{
 	margin: 0 2.5% 0;
 }
 
-#goals{
+aside#goals{
 	margin: 0 5% 0 2.5%;
 }
 
@@ -145,6 +147,29 @@ main aside p{
 main aside p a{
 	color:#dd2222
 }
+
+footer{
+	width:25%;
+	height: 10%;
+	max-width: 1200px;
+	max-height: 300px;
+	float:left;
+	background: white;
+}
+
+footer div{
+	width: 25%;
+	max-width: 300px;
+	margin: 0 0 5px 5px;
+}
+
+footer div p{
+	font-family:  'Jura', sans-serif;
+	font-size:20px;
+	color:black;
+	background: white;
+}
+
 .clear{
 	clear:both;
 }
@@ -152,7 +177,7 @@ main aside p a{
 /*Responsiveness*/
 
 @media only screen and (max-width:720px){
-	 #container, header, main, article {
+	 #container, header, main, article, aside {
 		width: auto;
 		max-height: 200px;
 		max-width: 720px;
