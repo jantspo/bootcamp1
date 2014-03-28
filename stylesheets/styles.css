@@ -18,6 +18,7 @@ header{
 	height: 90%;
 	width:25%;
 	min-height: 700px;
+	max-height: 700px;
 	max-width: 300px;
 	background: white;
 	float: left;
@@ -176,20 +177,50 @@ footer div p{
 
 /*Responsiveness*/
 
-@media only screen and (max-width:720px){
-	 #container, header, main, article, aside, footer {
+
+@media only screen and (max-width:480px){
+
+	*{
+		margin: 0;
+		padding:0;
+	}
+	 #container{
+	 	width: auto;
+	 	max-width: 480px;
+	 	float:none;
+	 	height:auto;
+	 } 
+
+	 header, article, footer {
 		width: auto;
 		max-height: 200px;
-		max-width: 720px;
+		max-width: 480px;
 		float:none;
 		margin: 0 auto;
+		border-radius: 5px;
 	}
 
-	aside{
+	main{
 		margin: 10px auto;
 		float:none;
 		width: auto;
-		max-width: 720px;
+		max-width: 480px;
+		border-radius: 5px;
+	}
+
+	main p#indexPage{
+		width: 450;
+		padding: 0 auto 25px;
+		margin:0 auto;
+	}
+
+	aside#news, aside#aboutMe, aside#goals{
+		width:auto;
+		max-width: 300px;
+		float:none;
+		box-shadow: none;
+		margin:10px auto;
+
 	}
 
 	h1{
