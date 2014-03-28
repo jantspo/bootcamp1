@@ -220,7 +220,7 @@ footer div p{
 		position: relative;
 	}
 
-	main{
+	div#main{
 		width: auto;
 		height: auto;
 		max-width: 480px;
@@ -232,7 +232,7 @@ footer div p{
 		position: relative;
 	}
 
-	main p#indexPage{
+	div#main p#indexPage{
 		width: 450px;
 		height:auto;
 		min-width: 450px;
