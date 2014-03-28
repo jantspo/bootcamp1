@@ -201,11 +201,12 @@ footer div p{
 	}
 
 	main{
-		margin: 10px auto;
 		float:none;
 		width: auto;
+		height: auto;
 		max-width: 480px;
 		border-radius: 5px;
+		background:#c1c1c1;
 	}
 
 	main p#indexPage{
@@ -220,7 +221,6 @@ footer div p{
 		float:none;
 		box-shadow: none;
 		margin:10px auto;
-
 	}
 
 	h1{
