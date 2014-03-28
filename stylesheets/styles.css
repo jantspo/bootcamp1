@@ -177,7 +177,7 @@ footer div p{
 /*Responsiveness*/
 
 @media only screen and (max-width:720px){
-	 #container, header, main, article, aside {
+	 #container, header, main, article, aside, footer {
 		width: auto;
 		max-height: 200px;
 		max-width: 720px;
