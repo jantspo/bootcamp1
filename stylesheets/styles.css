@@ -68,7 +68,7 @@ nav ul li a:hover{
 	box-shadow: 5px 5px 5px black;
 }
 
-main{
+div#main{
 	height: 90%;
 	width:75%;
 	min-height: 778px;
@@ -77,36 +77,36 @@ main{
 	float:right;
 }
 
-main article#indexPage{
+div#main article#indexPage{
 	height: auto;
 	width:60%;
 	margin: 25% auto 5%;
 }
 
-main article{
+div#main article{
 	height: auto;
 	width:60%;
 	margin: 25% auto 5%;
 }
 
 
-main article p{
+div#main article p{
 	font-family: 'Jura', sans-serif;
 	font-size: 25px;
 	color: white;
 	text-shadow: 2px 2px 2px black;
 }
 
-main article p span{
+div#main article p span{
 	color:yellow;
 }
 
-main article p a#geekwiseLink{
+div#main article p a#geekwiseLink{
 	color: #dd2222;
 	text-shadow:none;
 }
 
-main aside{
+div#main aside{
 	height:250px;
 	width: 200px;
 	border:2px solid grey;
@@ -116,7 +116,7 @@ main aside{
 	border-radius: 5px;
 }
 
-main article h2{
+div#main article h2{
 	font-family: 'Jura', sans-serif;
 	font-size: 32px;
 	color: yellow;
@@ -135,7 +135,7 @@ aside#goals{
 	margin: 0 5% 0 2.5%;
 }
 
-main aside h3{
+div#main aside h3{
 	color:yellow;
 	border-bottom: 1px solid grey;
 	font-family:  'Jura', sans-serif;
@@ -144,13 +144,13 @@ main aside h3{
 	text-shadow: 2px 2px 2px black;
 }
 
-main aside p{
+div#main aside p{
 	font-family:  'Jura', sans-serif;
 	font-size:18px;
 	padding: 0 0 0 2%;
 }
 
-main aside p a{
+div#main aside p a{
 	color:#dd2222
 }
 
