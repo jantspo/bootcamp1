@@ -68,7 +68,7 @@ nav ul li a:hover{
 	box-shadow: 5px 5px 5px black;
 }
 
-div#main{
+main{
 	height: 90%;
 	width:75%;
 	min-height: 778px;
@@ -77,36 +77,36 @@ div#main{
 	float:right;
 }
 
-div#main article#indexPage{
+main article#indexPage{
 	height: auto;
 	width:60%;
 	margin: 25% auto 5%;
 }
 
-div#main article{
+main article{
 	height: auto;
 	width:60%;
 	margin: 25% auto 5%;
 }
 
 
-div#main article p{
+main article p{
 	font-family: 'Jura', sans-serif;
 	font-size: 25px;
 	color: white;
 	text-shadow: 2px 2px 2px black;
 }
 
-div#main article p span{
+main article p span{
 	color:yellow;
 }
 
-div#main article p a#geekwiseLink{
+main article p a#geekwiseLink{
 	color: #dd2222;
 	text-shadow:none;
 }
 
-div#main aside{
+main aside{
 	height:250px;
 	width: 200px;
 	border:2px solid grey;
@@ -116,7 +116,7 @@ div#main aside{
 	border-radius: 5px;
 }
 
-div#main article h2{
+main article h2{
 	font-family: 'Jura', sans-serif;
 	font-size: 32px;
 	color: yellow;
@@ -135,7 +135,7 @@ aside#goals{
 	margin: 0 5% 0 2.5%;
 }
 
-div#main aside h3{
+main aside h3{
 	color:yellow;
 	border-bottom: 1px solid grey;
 	font-family:  'Jura', sans-serif;
@@ -144,13 +144,13 @@ div#main aside h3{
 	text-shadow: 2px 2px 2px black;
 }
 
-div#main aside p{
+main aside p{
 	font-family:  'Jura', sans-serif;
 	font-size:18px;
 	padding: 0 0 0 2%;
 }
 
-div#main aside p a{
+main aside p a{
 	color:#dd2222
 }
 
@@ -220,7 +220,7 @@ footer div p{
 		position: relative;
 	}
 
-	div#main{
+	main{
 		width: auto;
 		height: auto;
 		max-width: 480px;
@@ -232,7 +232,7 @@ footer div p{
 		position: relative;
 	}
 
-	div#main p#indexPage{
+	main p#indexPage{
 		width: 450px;
 		height:auto;
 		min-width: 450px;
