@@ -205,6 +205,7 @@ footer div p{
 	 	float:none;
 	 	margin: 0 auto;
 	 	border:5px;
+	 	position: relative;
 	 }
 
 	 article, footer {
@@ -216,6 +217,7 @@ footer div p{
 		margin: 0 auto;
 		border-radius: 5px;
 		padding: 0;
+		position: relative;
 	}
 
 	main{
@@ -224,9 +226,10 @@ footer div p{
 		max-width: 480px;
 		border-radius: 5px;
 		background:#c1c1c1;
-		margin: -350px auto 0;
+		margin: -300px auto 0;
 		padding: 0;
 		float:none;
+		position: relative;
 	}
 
 	main p#indexPage{
@@ -252,6 +255,10 @@ footer div p{
 
 	h3{
 		font-size: 20px;
+	}
+
+	h2{
+		text-align: center;
 	}
 
 	p{
