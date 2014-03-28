@@ -183,7 +183,7 @@ footer div p{
 /*Responsiveness*/
 
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:796px){
 
 	*{
 		margin: 0;
@@ -199,6 +199,7 @@ footer div p{
 
 	 header {
 	 	width:auto;
+	 	height:auto;
 	 	max-height: 200px;
 	 	max-width: 480px;
 	 	float:none;
@@ -208,6 +209,7 @@ footer div p{
 
 	 article, footer {
 		width: auto;
+		height: auto;
 		max-height: 200px;
 		max-width: 480px;
 		float:none;
@@ -217,7 +219,6 @@ footer div p{
 	}
 
 	main{
-		float:none;
 		width: auto;
 		height: auto;
 		max-width: 480px;
@@ -225,10 +226,12 @@ footer div p{
 		background:#c1c1c1;
 		margin: -350px auto 0;
 		padding: 0;
+		float:none;
 	}
 
 	main p#indexPage{
 		width: 450px;
+		height:auto;
 		min-width: 450px;
 		padding: 25px auto 25px;
 		margin:15px auto;
@@ -256,9 +259,10 @@ footer div p{
 	}
 	  
     nav {  
-        border-bottom: 0;
         width: auto;
-        max-width: 480px;  
+        height:auto;
+        max-width: 480px;
+        border-bottom: 0;  
     }  
 
     nav.hideme ul li {
